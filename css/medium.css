@@ -1,0 +1,31 @@
+@media (min-width: 32.5em) {  
+    *{
+        padding: .3em;
+        background-color: #E3D26F;
+    width: 100%;
+    }
+    .logo{
+        width: 200px;
+    }
+    div h1{
+        font-size: 40px;
+    }
+    #social_media{
+        width:30%;
+    }
+    div picture img{
+        justify-items: center;
+        margin:0 auto;
+    }
+    div picture img:hover {
+        box-shadow: 0 0 35px #333;
+    }
+    .hamburgerBtn{
+        display:none;
+
+    }
+    footer div image{
+        width: 200px;
+
+    }
+}

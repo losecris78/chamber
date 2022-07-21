@@ -1,0 +1,94 @@
+@media (min-width:64.5rem) {
+
+        
+*{
+    margin: 0 auto;
+    padding:1em;
+    box-sizing:border-box;
+    background-color: #E3D26F;
+    width:95%
+} 
+h1{font-family: 'Dosis', sans-serif;
+    color:#984447;
+    background-color:#d0e1e1 ;
+    padding: 1rem;
+    font-size: 55px;
+    text-align: center;
+}
+#hamburgerBtn{
+    display: none;
+    border:none;
+
+}
+div img{
+    width: 100%;
+}
+footer div img{
+    width: 30%;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    overflow: hidden;
+   
+}
+nav li{
+    flex: 1 1 100%;
+    text-decoration: none;
+}
+#social_media{
+    display: flex;
+}
+#social_media img{
+    flex-flow: row;
+    width: 150px;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr 1fr 1fr;
+    border:#984447 solid 1px;
+    grid-gap: 15px;
+    padding: 1em;
+    
+}
+.one picture{
+    grid-column: 1/5;
+    background-color: #984447;
+    width: 96%;
+    border:2px solid black;
+
+    
+}
+.one picture img{
+border:black solid 1px;
+}
+.two{
+background-color: aqua;
+border: 2px solid black;
+}
+.three{
+background-color: black;
+}
+.four{
+    grid-column: 1/2;
+    background-color: greenyellow;
+}
+.five{
+    grid-column: 4/5;
+    background: orange;
+
+}
+.six{
+
+}
+.seven{
+
+}
+.eight{
+
+}
+.nine{
+
+}
+}
